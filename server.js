@@ -30,7 +30,7 @@ app.get('/contact',function(req,res){
   });
 
   app.get('/about',function(req,res){
-    res.sendFile(path.join(__dirname +'/public/works.html'));
+    res.sendFile(path.join(__dirname +'/public/about.html'));
   });
 
 
